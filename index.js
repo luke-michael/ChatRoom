@@ -55,7 +55,7 @@ function serveStatic(response, cache, absPath) {
 }
 
 server.listen(3001, function(){
-    console.log("Application started on port 3000");
+    console.log("Application started on port 3001");
 });
 
 var chatServer = require('./lib/chat_server.js');
