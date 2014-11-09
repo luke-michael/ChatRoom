@@ -54,7 +54,7 @@ function serveStatic(response, cache, absPath) {
     }
 }
 
-server.listen(3000, function(){
+server.listen(3001, function(){
     console.log("Application started on port 3000");
 });
 
